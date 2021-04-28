@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+    --gray-50: #f1f8f7;
+    --gray-150: #e3eaec;
+    --gray-500: #333333;
+
+    --blue-50: #e2f7f4;
+    --blue-100: #5ed3f3;
+
+    --red-100: #ff3d37;;
+}
+
+button {
+    cursor: pointer;
+}
+
+strong, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+Link, a {
+    text-decoration: none;
+    color: inherit;
+}
